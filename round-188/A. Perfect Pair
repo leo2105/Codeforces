@@ -1,0 +1,12 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+	long long a,b,c;
+	cin>>a>>b>>c;
+	long long aux = abs(c-a);
+	if( aux/b>=0 && aux%b==0 && (a>=b || c>=b) )
+		cout<<aux/b;
+	else
+		cout<<"-1";
+}
