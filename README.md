@@ -1,6 +1,2 @@
-echo # Codeforces >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/leo2105/Codeforces.git
-git push -u origin master
+#Codeforces
+Competitive Programming Online Judge
